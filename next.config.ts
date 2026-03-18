@@ -1,5 +1,9 @@
 import type { NextConfig } from "next";
-typescript: { ignoreBuildErrors: true }
-const nextConfig: NextConfig = {};
+
+const nextConfig: NextConfig = {
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+};
 
 export default nextConfig;
